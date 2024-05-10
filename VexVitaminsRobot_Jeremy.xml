@@ -12,23 +12,23 @@
 <name>VexVitaminsRobot_Jeremy</name>
 <drivable>
 
-<name>wheel</name>
+<name>wheel1</name>
 	<cadEngine>
 		<git>https://github.com/jmartin-bancroft/VexVitaminsRobot_Jeremy.git</git>
 		<file>VexVitaminsRobotCad.groovy</file>
 	</cadEngine>
 	<kinematics>
-		<git>https://github.com/jmartin-bancroft/VexVitaminsRobot_Jeremy.git</git>
+		<git>https://github.com/madhephaestus/carl-the-hexapod.git</git>
 		<file>DefaultDhSolver.groovy</file>
 	</kinematics>
 <link>
 	<name>wheel</name>
 	<deviceName>virtualDev</deviceName>
 	<type>virtual</type>
-	<index>0</index>
+	<index>1</index>
 	<scale>1.0</scale>
-	<upperLimit>1000.0</upperLimit>
-	<lowerLimit>-1000.0</lowerLimit>
+	<upperLimit>1000000.0</upperLimit>
+	<lowerLimit>-1000000.0</lowerLimit>
 	<upperVelocity>328.0</upperVelocity>
 	<lowerVelocity>-328.0</lowerVelocity>
 	<staticOffset>0.0</staticOffset>
@@ -118,7 +118,7 @@
 
 <baseToZframe>
 
-	<x>58.2</x>
+	<x>242.34999999999985</x>
 	<y>-12.599999999999998</y>
 	<z>12.6</z>
 	<rotw>0.5048458934646433</rotw>
@@ -176,15 +176,15 @@
 	<vitamins>
 
 		<vitamin>
-			<name>beam2</name>
-			<type>vexCchannel</type>
-			<id>Aluminum 3x15</id>
+			<name>Lchannel1</name>
+			<type>vexLchannel</type>
+			<id>2x2x25_Aluminum</id>
 			<pose>
 	<x>0.0</x>
 	<y>0.0</y>
 	<z>25.4</z>
-	<rotw>1.0</rotw>
-	<rotx>-0.0</rotx>
+	<rotw>0.7071067811865476</rotw>
+	<rotx>-0.7071067811865475</rotx>
 	<roty>-0.0</roty>
 	<rotz>-0.0</rotz>
 			</pose>
@@ -192,33 +192,17 @@
 		</vitamin>
 
 		<vitamin>
-			<name>beam</name>
-			<type>vexCchannel</type>
-			<id>Aluminum 3x15</id>
+			<name>WJDEW</name>
+			<type>vex_Hex_Nut_Retainer</type>
+			<id>1_Post_Hex_Nut_Retainer_With_Bearing</id>
 			<pose>
-	<x>0.0</x>
-	<y>0.0</y>
-	<z>0.0</z>
-	<rotw>0.6087614290087178</rotw>
-	<rotx>-0.0</rotx>
-	<roty>-0.7933533402912376</roty>
-	<rotz>-0.0</rotz>
-			</pose>
-			<frame>default</frame>
-		</vitamin>
-
-		<vitamin>
-			<name>beam3</name>
-			<type>vexLchannel</type>
-			<id>Aluminum 10</id>
-			<pose>
-	<x>0.0</x>
-	<y>0.0</y>
-	<z>38.1</z>
-	<rotw>1.0</rotw>
-	<rotx>-0.0</rotx>
-	<roty>-0.0</roty>
-	<rotz>-0.0</rotz>
+	<x>76.2</x>
+	<y>6.35</y>
+	<z>12.699999999999998</z>
+	<rotw>6.17067073959738E-5</rotw>
+	<rotx>6.170670739599346E-5</rotx>
+	<roty>-0.7071067784940847</roty>
+	<rotz>-0.7071067784940843</rotz>
 			</pose>
 			<frame>default</frame>
 		</vitamin>
