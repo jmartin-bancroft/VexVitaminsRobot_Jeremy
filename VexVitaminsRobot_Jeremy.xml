@@ -178,22 +178,22 @@
 
 		<vitamin>
 			<name>electroMechanical</name>
-			<type>vexMotor</type>
-			<id>393</id>
+			<type>vex_Hex_Nut_Retainer</type>
+			<id>Flat_Bearing</id>
 			<pose>
 	<x>0.0</x>
 	<y>0.0</y>
-	<z>0.0</z>
-	<rotw>1.0</rotw>
-	<rotx>-0.0</rotx>
-	<roty>-0.0</roty>
-	<rotz>-0.0</rotz>
+	<z>-6.35</z>
+	<rotw>6.170670739598365E-5</rotw>
+	<rotx>0.7071067784940845</rotx>
+	<roty>0.7071067784940844</roty>
+	<rotz>6.170670739598361E-5</rotz>
 			</pose>
 			<frame>lastlink</frame>
 		</vitamin>
 
 	</vitamins>
-	<passive>false</passive>
+	<passive>true</passive>
 	<mass>0.01</mass>
 	<centerOfMassFromCentroid>
 	<x>0.0</x>
@@ -297,22 +297,22 @@
 
 		<vitamin>
 			<name>electroMechanical</name>
-			<type>vexMotor</type>
-			<id>393</id>
+			<type>vex_Hex_Nut_Retainer</type>
+			<id>Flat_Bearing</id>
 			<pose>
 	<x>0.0</x>
 	<y>0.0</y>
-	<z>0.0</z>
-	<rotw>1.0</rotw>
-	<rotx>-0.0</rotx>
-	<roty>-0.0</roty>
-	<rotz>-0.0</rotz>
+	<z>-6.35</z>
+	<rotw>6.170670739598364E-5</rotw>
+	<rotx>0.7071067784940845</rotx>
+	<roty>0.7071067784940844</roty>
+	<rotz>6.170670739598362E-5</rotz>
 			</pose>
 			<frame>lastlink</frame>
 		</vitamin>
 
 	</vitamins>
-	<passive>false</passive>
+	<passive>true</passive>
 	<mass>0.01</mass>
 	<centerOfMassFromCentroid>
 	<x>0.0</x>
