@@ -323,7 +323,7 @@
 	<name>gripper</name>
 	<deviceName>virtualDev</deviceName>
 	<type>virtual</type>
-	<index>0</index>
+	<index>7</index>
 	<scale>2.0</scale>
 	<upperLimit>255.0</upperLimit>
 	<lowerLimit>0.0</lowerLimit>
@@ -379,10 +379,10 @@
 	<x>0.0</x>
 	<y>0.0</y>
 	<z>114.29999999999997</z>
-	<rotw>0.5000436313278626</rotw>
-	<rotx>0.5000436313269085</rotx>
-	<roty>0.49995636486537365</roty>
-	<rotz>-0.4999563648644197</rotz>
+	<rotw>0.5000436313278627</rotw>
+	<rotx>0.5000436313269087</rotx>
+	<roty>0.49995636486537376</roty>
+	<rotz>-0.4999563648644198</rotz>
 			</pose>
 			<frame>default</frame>
 		</vitamin>
